@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-ROM_PATH="/home/pi/RetroPie/roms"
+HOME="$(eval echo ~$user)"
+DATADIR="$HOME/RetroPie"
+ROM_PATH="$DATADIR/roms"
 COLLECTIONS_PATH="/opt/retropie/configs/all/emulationstation/collections"
 
 function _usage(){
