@@ -68,5 +68,5 @@ for COLLECTION in ${COLLECTIONS[@]}; do
       echo ${ROM_PATH}/${system}/${rom}.zip >> ${CUSTOM_CONF}
     done
   done
-  echo " ...done";
+  echo " done";
 done
