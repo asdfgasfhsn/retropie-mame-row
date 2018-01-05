@@ -1,5 +1,5 @@
-# ES Custom Collections for MAME Rom Of The Week Roms
-Create EmulationStation custom collections for RetroPie MAME Roms of the Week
+# ES Custom Collections for MAME Random Of The Week Roms
+Create EmulationStation custom collections for RetroPie [MAME Random Of the Week](https://retropie.org.uk/forum/category/16/mame-random-of-the-week).
 
 ## Usage
 Clone the repo to your RetroPie installation;
