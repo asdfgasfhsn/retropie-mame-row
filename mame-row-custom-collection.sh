@@ -7,9 +7,9 @@ COLLECTIONS_PATH="/opt/retropie/configs/all/emulationstation/collections"
 
 function _usage(){
   echo ""
-  echo "RetroPie MAME ROW Custom Collection Maker"
+  echo "RetroPie MAME ROW Custom Collection Creater"
   echo ""
-  echo "Creates EmulationStation Custom Collections for MAME Rom of the Week."
+  echo "Creates EmulationStation Custom Collections for MAME Random Of the Week."
   echo "* note: Requires internet access to download romlist"
   echo ""
   echo "Usage: ${0} [-s] '<arcade mame-libretro>' [-c] '<current historic>'"
