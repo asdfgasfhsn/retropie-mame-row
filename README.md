@@ -5,8 +5,36 @@ The script creates the following collections;
 - mame-row-crnt (Current ROW)
 - mame-row-hist (All historic ROWs)
 
-## Usage
-Download the latest version of the script to your RetroPie installation and make it executable;
+
+## Install Method: Add RetroPie Menu
+
+Download the latest version of the script and icon to your RetroPie installation and make it executable;
+
+    cd ~/RetroPie/retropiemenu/
+    curl -GO# https://raw.githubusercontent.com/asdfgasfhsn/retropie-mame-row/master/mame-row-custom-collection.sh \
+    && chmod +x mame-row-custom-collection.sh
+    cd ~/RetroPie/retropiemenu/icons/
+    curl -GO# https://raw.githubusercontent.com/asdfgasfhsn/retropie-mame-row/master/artwork/mame-row.png
+
+### Optional: Add ES meta data for script
+
+If you want the menu item to look "nice" exit out of EmulationStation and add the following xml snippet to the end of  `/opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml`;
+
+    <game>
+      <path>./mame-row-custom-collection.sh</path>
+      <name>MAME ROW</name>
+      <desc>Install and update MAME Random Of the Week Custom Collections.
+      Note: Requires and active internet connection.
+      Note: You will need to restart EmulationStation after running this script.</desc>
+      <image>./icons/mame-row.png</image>
+    </game>
+
+
+Now start EmulationStation and enjoy.
+
+## Install Method: Make It Your Own
+
+Download the script to your RetroPie installation and make it executable;
 
     curl -GO# https://raw.githubusercontent.com/asdfgasfhsn/retropie-mame-row/master/mame-row-custom-collection.sh \
     && chmod +x mame-row-custom-collection.sh
