@@ -7,7 +7,8 @@ The script creates the following collections;
 
 ## Usage
 Clone the repo to your RetroPie installation;
-`git clone https://github.com/asdfgasfhsn/retropie-mame-row`
+
+    `git clone https://github.com/asdfgasfhsn/retropie-mame-row`
 
 See the script documentation for actual usage;
 
