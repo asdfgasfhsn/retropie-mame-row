@@ -6,9 +6,15 @@ The script creates the following collections;
 - mame-row-hist (All historic ROWs)
 
 ## Usage
-Clone the repo to your RetroPie installation;
+Download the latest version of the script to your RetroPie installation and make it executable;
+
+    curl -GO# https://raw.githubusercontent.com/asdfgasfhsn/retropie-mame-row/master/mame-row-custom-collection.sh \
+    && chmod +x mame-row-custom-collection.sh
+
+Or you can clone the repo;
 
     git clone https://github.com/asdfgasfhsn/retropie-mame-row
+
 
 See the script documentation for actual usage;
 
@@ -29,9 +35,10 @@ See the script documentation for actual usage;
     ./mame-row-custom-collection.sh -s 'arcade'
 
 ## Artwork
-SVG files are located in `artwork` for each collection. The file names match
-the collection name.
+SVG files are located in the `artwork` folder for each collection;
+- [mame-row-crnt](artwork/mame-row-crnt.svg)
+- [mame-row-hist](artwork/mame-row-hist.svg)
 
 ## TODO
-- add error output in no internet connection is found
+- add error output when no internet connection is found
 - find a nice way to get script to run at bootup before ES starts
