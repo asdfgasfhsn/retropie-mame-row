@@ -78,3 +78,4 @@ tetrisp2
 insectx
 hotdogst
 rranger
+panic
