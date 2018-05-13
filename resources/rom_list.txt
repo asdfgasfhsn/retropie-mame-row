@@ -82,3 +82,4 @@ panic
 crbaloon
 jjsquawk
 quartet
+majtitl2
