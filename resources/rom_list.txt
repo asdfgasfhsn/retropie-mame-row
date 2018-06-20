@@ -88,3 +88,4 @@ gigawing
 renegade  
 parodius
 puyopuyo
+rtype2
