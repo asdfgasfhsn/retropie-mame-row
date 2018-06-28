@@ -89,3 +89,4 @@ renegade
 parodius
 puyopuyo
 rtype2
+loht
