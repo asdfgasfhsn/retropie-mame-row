@@ -90,3 +90,4 @@ parodius
 puyopuyo
 rtype2
 loht
+outrun
