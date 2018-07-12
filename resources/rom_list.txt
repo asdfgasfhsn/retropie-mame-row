@@ -91,3 +91,4 @@ puyopuyo
 rtype2
 loht
 outrun
+tinklpit
